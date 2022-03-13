@@ -12,6 +12,7 @@ import pages.GooglePage;
 
 public class StepDef1 
 {
+	//india is great country
 	public Shared sh;
 	//Dependency injection via constructor
 	public StepDef1(Shared x)
