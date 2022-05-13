@@ -22,7 +22,7 @@ public class StepDef2
 		List<Map<String,String>> l=dt.asMaps();
 		for(int i=0; i<l.size(); i++)
 		{
-			//Click on Compose
+			//Click on Compose to send email
 			sh.obj.fillSearchboxAndClickEnter(l.get(i).get("word"));
 			if(sh.obj.verifyTitle(sh.driver, l.get(i).get("word")))
 			{
